@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+.container{
+
+}
+.title{
+    padding:4%;
+    text-align: center;
+    color: aqua;
+    font-size: 68px;
+}
+.item-container{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+#drum, #piano, #xylophone, #guitar, #clap{
+    font-size: 48px;
+    color: #03f7ff;
+}
+#drum.active{
+    transition: 0.7s;
+    background-color:plum;
+}
+#piano.active{
+    transition: 0.7s;
+    background-color:plum;
+}
+#xylophone.active{
+    transition: 0.7s;
+    background-color:plum;
+}
+#guitar.active{
+    transition: 0.7s;
+    background-color:plum;
+}
+#clap.active{
+    transition: 0.7s;
+    background-color:plum;
+}
